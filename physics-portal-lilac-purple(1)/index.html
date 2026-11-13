@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школьная физика | Обучающий блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="home">
+        <h1>Школьная физика</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#articles">Материалы</a></li>
+                <li><button class="theme-btn" id="themeBtn">🌙 Темная тема</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="articles">
+            <h2>Публикации по школьной физике</h2>
+            
+            <!-- Поле живого поиска -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Введите название статьи, термин или тег для поиска...">
+            </div>
+
+            <!-- В этот пустой контейнер JavaScript будет вставлять наши статьи -->
+            <div id="postsContainer"></div>
+        </section>
+
+        <aside>
+            <h3>Полезные ресурсы</h3>
+            <p>Изучайте основы физики вместе с нами! Подготовлено на основе школьной программы 7–11 классов.</p>
+            <p><strong>Базовые формулы:</strong><br>
+            • Закон Ньютона: F = m · a<br>
+            • Закон Ома: I = U / R<br>
+            • Энергия: E = (m · v²) / 2</p>
+
+            <h3>Важное объявление</h3>
+            <p>Скоро здесь появится интерактивный тренажер по решению задач по механике и электричеству.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Обучающий портал по Физике. Все права защищены.</p>
+        <p><a href="#home">Вернуться наверх ↑</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
